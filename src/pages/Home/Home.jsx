@@ -12,6 +12,7 @@ import {
     GenderWrapper
 } from './HomeStyles'
 
+import recommendedReducer from '../../redux/recommended/recommended-reducer'
 function Home() {
     return (
         <HomeWrapper>

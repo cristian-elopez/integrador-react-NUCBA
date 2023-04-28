@@ -135,3 +135,5 @@ export const RopaHombre = [
         s_category: 'Buzos'
     },
 ];
+
+export const TotalRopaHombre = RopaHombre.length;

@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { rootReducer } from './root-reducer'
+import  rootReducer  from './root-reducer'
 
 const initialState = {};
 

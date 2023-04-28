@@ -135,3 +135,5 @@ export const RopaMujer = [
         s_category: 'Buzos'
     },
 ];
+
+export const TotalRopaMujer = RopaMujer.length;
