@@ -1,10 +1,10 @@
 import React from 'react';
 import { CardRecomendacion } from './CardRecomendacion';
 import { CardsContainer } from './CardsRecomendacionStyled';
-import { recommended } from '../../data/Recommended';
-
+import { useSelector } from 'react-redux';
 
 export const CardsRecomendacion = () => {
+  const { recommended } = useSelector(state => state.recommended)
   return (
     <CardsContainer gridLength={recommended.length}>
       {

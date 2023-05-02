@@ -1,20 +1,25 @@
 import Button from '../UI/Button/Button';
 import { CardProducto } from './CardProducto';
-
 import { ProductosContainer } from './CardsProductosStyles';
-import { RopaHombre } from '../../data/MaleClothing';
-import { RopaMujer } from '../../data/WomenClothing';
+import { useSelector } from 'react-redux';
 
-export const CardsProductos = () => {
+
+export const CardsProductos = (genero) => {
+    let { ropaHombre } = useSelector(state => state.ropaHombre);
+    let { ropaMujer } = useSelector(state => state.ropaMujer);
+
+    let gender = genero.genero.ruta;
+    let elegido;
+
+    if (gender == '/gender/men') {
+        elegido = ropaHombre;
+    } else if (gender == '/gender/women') {
+        elegido = ropaMujer;
+    }
     return (
         <ProductosContainer>
-            {/* si la pag es de hombre */}
             {
-                RopaHombre.map(ropa => <CardProducto key={ropa.id} {...ropa}/>) 
-            }
-            {/* si la pag es de mujeres */}
-            {
-                RopaMujer.map(ropa => <CardProducto key={ropa.id} {...ropa}/>)
+                elegido.map(ropa => <CardProducto key={ropa.id} {...ropa}/>) 
             }
         </ProductosContainer>
     )

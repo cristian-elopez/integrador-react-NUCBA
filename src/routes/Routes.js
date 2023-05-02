@@ -1,10 +1,12 @@
 import { Routes as ReactDomRoutes, Route } from 'react-router-dom';
 
+import Cart from '../pages/Cart/Cart';
 import Checkout from '../pages/Checkout/Checkout';
 import Clothing from '../pages/Clothing/Clothing';
 import Felicitaciones from '../pages/Felicitaciones/Felicitaciones';
 import ForgotPassword from '../pages/ForgotPassword/ForgotPassword';
 import Gender from '../pages/Gender/Gender';
+import Help from '../pages/Help/Help';
 import Home from '../pages/Home/Home';
 import Login from '../pages/Login/Login';
 import MisOrdenes from '../pages/MisOrdenes/MisOrdenes';
@@ -18,7 +20,10 @@ function Routes() {
   return (
     <ReactDomRoutes>
       <Route path='/' element={<Home />} />
-      <Route path='/gender' element={<Gender />} />
+      <Route path='/cart' element={<Cart />} />
+      <Route path='/help' element={<Help />} />
+      <Route path='/gender/men' element={<Gender ruta='/gender/men'/>} />
+      <Route path='/gender/women' element={<Gender ruta='/gender/women'/>} />
       <Route path='/clothing' element={<Clothing />} />
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register />} />

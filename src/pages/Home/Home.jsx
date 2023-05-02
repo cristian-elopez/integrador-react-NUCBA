@@ -12,7 +12,6 @@ import {
     GenderWrapper
 } from './HomeStyles'
 
-import recommendedReducer from '../../redux/recommended/recommended-reducer'
 function Home() {
     return (
         <HomeWrapper>
@@ -22,13 +21,13 @@ function Home() {
             </RecomendadosWrapper>
             <GenderGeneralWrapper>
                 <GenderWrapper>
-                    <Link to='/'>
+                    <Link to='/gender/women'>
                         <img src="https://res.cloudinary.com/dja0b7qbo/image/upload/v1682437172/PROYECTOS/GENOVA/MODELS/modelo-genova-mujer_iaiwtf.jpg" alt="Modelo Mujer" />
                         <h3>MUJER</h3>
                     </Link>
                 </GenderWrapper>
                 <GenderWrapper>
-                    <Link to='/'>
+                    <Link to='/gender/men'>
                         <img src="https://res.cloudinary.com/dja0b7qbo/image/upload/v1682436293/PROYECTOS/GENOVA/MODELS/modelo-genova-hombre_ounwyb.jpg" alt="Modelo Hombre" />
                         <h3>HOMBRE</h3>
                     </Link>

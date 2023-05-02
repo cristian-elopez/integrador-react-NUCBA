@@ -26,31 +26,37 @@ export const Navbar = ()=> {
                         Inicio
                     </LinkContainerStyled>
                 </Link>
-                <Link to='/'>
+                <Link to='/help'>
                     <LinkContainerStyled>
                         Ayuda
                     </LinkContainerStyled>
                 </Link>
-                <Link to='/'>
                     <LogoStyled 
                         src="https://res.cloudinary.com/dja0b7qbo/image/upload/v1682357016/PROYECTOS/GENOVA/IMAGES/genova-icon-white_brnuuq.png" 
                         alt="Logo" 
                     />
-                </Link>
-                <Link to='/'>
+                <Link to='/gender/women'>
                     <LinkContainerStyled>
                         Mujer
                     </LinkContainerStyled>
                 </Link>
-                <Link to='/'>
+                <Link to='/gender/men'>
                     <LinkContainerStyled>
                         Hombre
                     </LinkContainerStyled>
                 </Link>
             </LinksContainerStyled>
                 <IconsContainerStyled>
-                    <BiUserStyled />
-                    <BiShoppingBagStyled />
+                    <Link to='/login'>
+                        <LinkContainerStyled>
+                            <BiUserStyled />
+                        </LinkContainerStyled>
+                    </Link>
+                    <Link to='/cart'> 
+                        <LinkContainerStyled>
+                            <BiShoppingBagStyled /> 
+                        </LinkContainerStyled>
+                    </Link>
                 </IconsContainerStyled>
         </NavbarConteinerStyled>
     );

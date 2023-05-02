@@ -24,7 +24,7 @@ export const Footer = () => {
                         <AiFillBank /> Transferencia bancaria - Depósito
                     </div>
                     <div>
-                        <AiOutlineDollarCircle /> Efectivo cuando retiro o me entregan
+                        <AiOutlineDollarCircle /> Efectivo cuando retiro
                     </div>
                 </ColumnsContein>
                 <ColumnsContein>
