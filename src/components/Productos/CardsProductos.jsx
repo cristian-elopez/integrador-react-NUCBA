@@ -1,10 +1,8 @@
-import Button from '../UI/Button/Button';
 import { CardProducto } from './CardProducto';
 import { ProductosContainer } from './CardsProductosStyles';
 import { useSelector } from 'react-redux';
 
-
-export const CardsProductos = (genero) => {
+const GeneroElegido = (genero) => {
     let { ropaHombre } = useSelector(state => state.ropaHombre);
     let { ropaMujer } = useSelector(state => state.ropaMujer);
 
@@ -15,7 +13,18 @@ export const CardsProductos = (genero) => {
         elegido = ropaHombre;
     } else if (gender == '/gender/women') {
         elegido = ropaMujer;
-    }
+    };
+    return elegido;
+};
+
+export const CardsProductos = (genero) => {
+    let elegido = GeneroElegido(genero);
+    const selectedCategory = useSelector(state => state.categories.selectedCategory);
+
+    if (selectedCategory) {
+        elegido = elegido.filter(prenda => prenda.category === selectedCategory)
+    };
+
     return (
         <ProductosContainer>
             {

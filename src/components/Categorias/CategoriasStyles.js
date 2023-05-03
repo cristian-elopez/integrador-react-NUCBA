@@ -24,6 +24,8 @@ export const CardCategoria = styled.div`
         -webkit-box-shadow: 0px 0px 10px 2px #3E3E3E;
         -moz-box-shadow: 0px 0px 10px 2px #3E3E3E;
     }
+    background-color: ${({ selected }) =>
+    selected ? '#3E3E3E' : 'transparent'};
 `;
 export const CardImg = styled.img`
     width: 100%;

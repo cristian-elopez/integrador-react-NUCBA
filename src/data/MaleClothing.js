@@ -5,8 +5,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Buzos'
     },
     {
         id: 2,
@@ -14,8 +13,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Buzos'
     },
     {
         id: 3,
@@ -23,8 +21,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Buzos'
     },
     {
         id: 4,
@@ -32,8 +29,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Camperas'
     },
     {
         id: 5,
@@ -41,8 +37,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Camperas'
     },
     {
         id: 6,
@@ -50,8 +45,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Camperas'
     },
     {
         id: 7,
@@ -59,8 +53,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Remeras'
     },
     {
         id: 8,
@@ -68,8 +61,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Remeras'
     },
     {
         id: 9,
@@ -77,8 +69,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Remeras'
     },
     {
         id: 10,
@@ -86,8 +77,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Pantalones'
     },
     {
         id: 11,
@@ -95,8 +85,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Pantalones'
     },
     {
         id: 12,
@@ -104,8 +93,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Pantalones'
     },
     {
         id: 13,
@@ -113,8 +101,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Accesorios'
     },
     {
         id: 14,
@@ -122,8 +109,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Accesorios'
     },
     {
         id: 15,
@@ -131,8 +117,7 @@ export const RopaHombre = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Hombre',
-        s_category: 'Buzos'
+        category: 'Accesorios'
     },
 ];
 

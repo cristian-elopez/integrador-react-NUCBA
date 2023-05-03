@@ -5,8 +5,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Buzos'
     },
     {
         id: 17,
@@ -14,8 +13,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Buzos'
     },
     {
         id: 18,
@@ -23,8 +21,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Buzos'
     },
     {
         id: 19,
@@ -32,8 +29,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Camperas'
     },
     {
         id: 20,
@@ -41,8 +37,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Camperas'
     },
     {
         id: 21,
@@ -50,8 +45,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Camperas'
     },
     {
         id: 22,
@@ -59,8 +53,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Remeras'
     },
     {
         id: 23,
@@ -68,8 +61,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Remeras'
     },
     {
         id: 24,
@@ -77,8 +69,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Remeras'
     },
     {
         id: 25,
@@ -86,8 +77,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Pantalones'
     },
     {
         id: 26,
@@ -95,8 +85,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Pantalones'
     },
     {
         id: 27,
@@ -104,8 +93,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Pantalones'
     },
     {
         id: 28,
@@ -113,8 +101,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Accesorios'
     },
     {
         id: 29,
@@ -122,8 +109,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Accesorios'
     },
     {
         id: 30,
@@ -131,8 +117,7 @@ export const RopaMujer = [
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
         desc: '',
         price: 1000,
-        f_category: 'Mujer',
-        s_category: 'Buzos'
+        category: 'Accesorios'
     },
 ];
 
