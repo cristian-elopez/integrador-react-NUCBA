@@ -24,7 +24,7 @@ function Routes() {
       <Route path='/help' element={<Help />} />
       <Route path='/gender/men' element={<Gender ruta='/gender/men'/>} />
       <Route path='/gender/women' element={<Gender ruta='/gender/women'/>} />
-      <Route path='/clothing' element={<Clothing />} />
+      <Route path='/clothing/:id' element={<Clothing />} />
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register />} />
       <Route path='/forgot-password' element={<ForgotPassword />} />

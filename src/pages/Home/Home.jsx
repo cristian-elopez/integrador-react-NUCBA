@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import { Categorias } from '../../components/Categorias/Categorias';
-import { CardsProductos } from '../../components/Productos/CardsProductos';
 import { CardsRecomendacion } from '../../components/Recomendados/CardsRecomendacion';
 
 import {

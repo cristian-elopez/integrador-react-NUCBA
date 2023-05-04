@@ -14,12 +14,15 @@ export const ProductosCard = styled.div`
         box-shadow: 0px 0px 10px 2px #3E3E3E;
         -webkit-box-shadow: 0px 0px 10px 2px #3E3E3E;
         -moz-box-shadow: 0px 0px 10px 2px #3E3E3E;
+        cursor: pointer;
     }
 `;
 export const CardImg = styled.img`
     width: 100%;
 `;
-export const CardText = styled.div``;
+export const CardText = styled.div`
+    color: white;
+`;
 export const ProductosContainer = styled.div`
     width: 100%;
     display: flex;
@@ -28,4 +31,7 @@ export const ProductosContainer = styled.div`
     flex-wrap: wrap;
     gap: 20px;
     margin: 20px;
-`
+`;
+export const PriceContainer = styled.p`
+    font-weight: 800;
+`;

@@ -4,7 +4,7 @@ import { CardsContainer } from './CardsRecomendacionStyled';
 import { useSelector } from 'react-redux';
 
 export const CardsRecomendacion = () => {
-  const { recommended } = useSelector(state => state.recommended)
+  const { recommended } = useSelector(state => state.recommended);
   return (
     <CardsContainer gridLength={recommended.length}>
       {
