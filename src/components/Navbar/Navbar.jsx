@@ -1,8 +1,8 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-// import * as userActions from '../../redux/user/user-actions';
-
+import { Link } from "react-router-dom";
+import { useDispatch,useSelector } from 'react-redux';
+import HamburgerMenu from "../../components/HamburgerMenu/HamburgerMenu";
+import { toggleMenu } from '../../redux/navbar/navbar-actions';
 import {
 	NavbarConteinerStyled,
     LogoStyled,
@@ -10,40 +10,33 @@ import {
     LinkContainerStyled,
     IconsContainerStyled,
     BiUserStyled,
-    BiShoppingBagStyled
+    BiShoppingBagStyled,
+    HamburgerMenuContainer,
+    GiHamburgerMenuStyled
 } from './NavbarStyles';
 
 export const Navbar = ()=> {
-    // const navigate = useNavigate();
-    // const currentUser = useSelector(state => state.user.currentUser);
-    // const dispatch = useDispatch();
+    const dispatch = useDispatch()
+    const hiddenMenu = useSelector(state => state.navbar.hidden);
 
     return (
         <NavbarConteinerStyled>
             <LinksContainerStyled>
                 <Link to='/'>
-                    <LinkContainerStyled>
-                        Inicio
-                    </LinkContainerStyled>
+                    <LinkContainerStyled> Inicio </LinkContainerStyled>
                 </Link>
                 <Link to='/help'>
-                    <LinkContainerStyled>
-                        Ayuda
-                    </LinkContainerStyled>
+                    <LinkContainerStyled> Ayuda </LinkContainerStyled>
                 </Link>
-                    <LogoStyled 
-                        src="https://res.cloudinary.com/dja0b7qbo/image/upload/v1682357016/PROYECTOS/GENOVA/IMAGES/genova-icon-white_brnuuq.png" 
-                        alt="Logo" 
-                    />
+                <LogoStyled 
+                    src="https://res.cloudinary.com/dja0b7qbo/image/upload/v1682357016/PROYECTOS/GENOVA/IMAGES/genova-icon-white_brnuuq.png" 
+                    alt="Logo" 
+                />
                 <Link to='/gender/women'>
-                    <LinkContainerStyled>
-                        Mujer
-                    </LinkContainerStyled>
+                    <LinkContainerStyled> Mujer </LinkContainerStyled>
                 </Link>
                 <Link to='/gender/men'>
-                    <LinkContainerStyled>
-                        Hombre
-                    </LinkContainerStyled>
+                    <LinkContainerStyled> Hombre </LinkContainerStyled>
                 </Link>
             </LinksContainerStyled>
                 <IconsContainerStyled>
@@ -58,6 +51,13 @@ export const Navbar = ()=> {
                         </LinkContainerStyled>
                     </Link>
                 </IconsContainerStyled>
+            <HamburgerMenuContainer>
+                <GiHamburgerMenuStyled 
+                    onClick={()=> dispatch(toggleMenu(<HamburgerMenu hiddenMenu/>))}
+                    isHidden={hiddenMenu}
+                />
+                <HamburgerMenu />
+            </HamburgerMenuContainer>
         </NavbarConteinerStyled>
     );
 };

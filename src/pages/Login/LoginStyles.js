@@ -4,11 +4,12 @@ export const LoginContainerStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    flex-direction: column;
+    margin: 50px;
 `
 export const Form = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    flex-direction: column;
 `

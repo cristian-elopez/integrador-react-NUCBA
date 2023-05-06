@@ -8,6 +8,15 @@ export const ClothingContainer = styled.div`
     gap: 5px;
     width: 80%;
     max-width: 1200px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    @media (max-width: 425px) {
+        flex-direction: column;
+    }
 `;
 export const ImageContainer = styled.div`
     width: 50%;
@@ -15,6 +24,10 @@ export const ImageContainer = styled.div`
     img {
         width: 100%;
         max-width: 600px;
+        min-width: 300px;
+    }
+    @media (max-width: 425px) {
+        width: 80%;
     }
 `;
 export const InfoContainer = styled.div`
@@ -29,6 +42,15 @@ export const InfoContainer = styled.div`
     h3 {
         font-size: 3rem;
         width: 70%;
+    }
+    @media (max-width: 768px) {
+        h3 {
+            font-size: 2rem;
+        }
+    }
+    @media (max-width: 425px) {
+        width: 80%;
+        padding-bottom: 20px;
     }
 `;
 export const PriceContainer = styled.p`

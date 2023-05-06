@@ -10,7 +10,6 @@ const Button = ({
         <StyledButton
             disabled={disabled}
             onClick={onClick}
-            whileTap={{ scale: 0.95 }}
         >
             {children}
         </StyledButton>

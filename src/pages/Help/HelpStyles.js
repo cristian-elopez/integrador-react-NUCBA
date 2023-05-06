@@ -9,6 +9,7 @@ export const HelpContainer = styled.div`
     h1 {
         font-weight: 800;
         margin: auto;
+        width: 50%;
     }
 `;
 export const PreguntasContainer = styled.div`

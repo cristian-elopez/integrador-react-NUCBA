@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { BiTrashAlt } from 'react-icons/bi'
 
 export const InfoTotalCart = styled.div`
     display: flex;
@@ -7,15 +8,31 @@ export const InfoTotalCart = styled.div`
     width: 70%;
     margin: auto;
     gap: 20px;
+
+    @media (max-width: 768px) {
+		flex-direction: column;
+        width: 100%;
+	}
 `;
 export const ContainerInfoPrenda = styled.div`
     display: flex;
     flex-direction: column;
     width: 70%;
+
+    @media (max-width: 768px) {
+		flex-direction: column;
+	}
+    @media (max-width: 425px) {
+        width: 90%;
+    }
 `;
 export const ContainerTitulosInfo = styled.div`
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+		display: none;
+	}
 `;
 export const ContainerTotalCarrito = styled.div`
     border: 1px solid white;
@@ -38,4 +55,11 @@ export const ContainerAllProducts = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
+`;
+export const BiTrashStyled = styled(BiTrashAlt)`
+    font-size: 1.5rem;
+    color: white;
+`;
+export const MensajeVacio = styled.h3`
+    margin: 30px auto;
 `;

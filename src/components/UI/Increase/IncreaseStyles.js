@@ -1,17 +1,10 @@
 import styled from 'styled-components';
 
 export const IncreaseStyled = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background: ${({ bgColor }) => bgColor || 'var(--btn-gradient)'};
+  background-color: transparent;
   border: none;
-  border-radius: 15px;
-  font-size: 1.1rem;
-  font-weight: 800;
-  color: white;
+  display: flex;
+  margin: auto;
   cursor: pointer;
   
   &:disabled {

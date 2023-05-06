@@ -16,6 +16,9 @@ export const Card = styled.div`
         -webkit-box-shadow: 0px 0px 10px 2px #3E3E3E;
         -moz-box-shadow: 0px 0px 10px 2px #3E3E3E;
     }
+    @media (max-width: 425px) {
+		width: 90%;
+	}
 `;
 export const CardImg = styled.img`
     width: 100%;
@@ -30,4 +33,8 @@ export const CardsContainer = styled.div`
     align-items: center;
     gap: 20px;
     margin: 20px;
+
+    @media (max-width: 425px) {
+		flex-direction: column;
+	}
 `;

@@ -6,11 +6,11 @@ export const InputContainerStyled = styled.div`
 `;
 
 export const LoginInputStyled = styled.input`
+  margin: 10px;
   width: 300px;
-  padding: 1.5rem 2rem;
+  padding: 1.1rem 2rem;
   color: white;
   background-color: var(--gray-bg);
-  border-radius: 15px;
   border: ${({ isError }) => (isError ? '1px solid #fb103d ' : 'none')};
   outline: none;
   caret-color: white;

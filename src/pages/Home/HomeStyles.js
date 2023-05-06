@@ -29,6 +29,10 @@ export const GenderGeneralWrapper = styled.section`
     h3 {
         font-weight: 800;
     }
+    @media (max-width: 425px) {
+		flex-direction: column;
+        width: 80%;
+	}
 `;
 export const GenderWrapper = styled.div`
     width: 50%;
@@ -44,4 +48,7 @@ export const GenderWrapper = styled.div`
     :hover {
         transform: scale(1.009);
     }
+    @media (max-width: 425px) {
+        width: 100%;
+	}
 `;

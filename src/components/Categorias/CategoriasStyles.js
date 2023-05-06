@@ -8,6 +8,10 @@ export const CategoriasContainer = styled.div`
     margin: auto;
     user-select: none;
     width: 70%;
+
+    @media (max-width: 425px) {
+		flex-direction: column;
+	}
 `;
 export const CardCategoria = styled.div`
     display: flex;
@@ -17,7 +21,9 @@ export const CardCategoria = styled.div`
     border: 1px solid white;
     padding: 10px;
     width: 100%;
+    min-width: 110px;
     cursor: pointer;
+
     :hover {
         background-color: #252525;
         box-shadow: 0px 0px 10px 2px #3E3E3E;
@@ -29,5 +35,9 @@ export const CardCategoria = styled.div`
 `;
 export const CardImg = styled.img`
     width: 100%;
+
+    @media (max-width: 425px) {
+		display: none;		
+	}
 `;
 export const CardText = styled.div``;

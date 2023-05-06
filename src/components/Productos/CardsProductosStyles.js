@@ -8,6 +8,7 @@ export const ProductosCard = styled.div`
     border: 1px solid white;
     padding: 20px;
     width: 25%;
+    min-width: 140px;
 
     :hover {
         background-color: #252525;

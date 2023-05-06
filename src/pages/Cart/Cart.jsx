@@ -1,25 +1,29 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import Button from '../../components/UI/Button/Button';
 import { formatPrice } from '../../utils/formatPrice';
+import CardProduct from '../../components/CardProduct/CardProduct';
+import * as cartActions from '../../redux/cart/cart-actions';
 import { 
   InfoTotalCart,
   ContainerInfoPrenda,
   ContainerTitulosInfo,
   ContainerTotalCarrito,
   PrecioTotal,
-  ContainerAllProducts
+  ContainerAllProducts,
+  BiTrashStyled,
+  MensajeVacio
 } from './CartStyles';
-import CardProduct from '../../components/CardProduct/CardProduct';
+import Increase from '../../components/UI/Increase/Increase';
 
 const Cart = () => {
-  let prenda = {
-    id: 1,
-    tittle: 'Buzo Hombre 1',
-    img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-    desc: '',
-    price: 1000,
-    category: 'Buzos'
-  }
+  const { cartItems, shippingCost } = useSelector(state => state.cart);
+  const dispatch = useDispatch();
+
+  const totalPrice = cartItems.reduce((acc, item) => {
+    return (acc += item.price * item.quantity);
+  }, 0);
+
   return (
     <InfoTotalCart>
       <ContainerInfoPrenda>
@@ -30,31 +34,40 @@ const Cart = () => {
           <p>SUBTOTAL</p>
         </ContainerTitulosInfo>
         <ContainerAllProducts>
-          <CardProduct
-            id={prenda.id}
-            tittle={prenda.tittle}
-            img={prenda.img}
-            desc={prenda.desc}
-            price={prenda.price}
-            category={prenda.category}
-          />
+          {
+            cartItems.length ? (
+              cartItems.map(item => (
+                <CardProduct key={item.id} {...item} />
+              )) 
+            ) : (
+              <MensajeVacio>No hay productos en el carrito</MensajeVacio>
+            )
+          } 
+          <Increase 
+            onClick={()=> dispatch(cartActions.clearCart())}
+            disabled={!cartItems.length}>
+            <BiTrashStyled />
+          </Increase>
         </ContainerAllProducts>
       </ContainerInfoPrenda>
       <ContainerTotalCarrito>
         <h3>Total del carrito</h3>
         <div>
           <p>Subtotal</p>
-          <p>{formatPrice(1000)}</p>
+          <p>{formatPrice(totalPrice)}</p>
         </div>
         <div>
           <p>Envio</p>
-          <p>Calcular Envio</p>
+          <p>{formatPrice(shippingCost)}</p>
         </div>
         <div>
           <p>TOTAL</p>
-          <PrecioTotal>{formatPrice(1000)}</PrecioTotal>
+          <PrecioTotal>{formatPrice(totalPrice + shippingCost)}</PrecioTotal>
         </div>
-        <Button>FINALIZAR COMPRA</Button>
+        <Button
+          disabled={!cartItems.length}
+          >FINALIZAR COMPRA
+        </Button>
       </ContainerTotalCarrito>
     </InfoTotalCart>
   )

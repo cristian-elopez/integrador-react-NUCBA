@@ -8,11 +8,13 @@ import categoriesReducer from './categories/categories-reducer.js';
 import recommendedReducer from './recommended/recommended-reducer';
 import cartReducer from './cart/cart-reducer';
 import prendaReducer from "./prenda/prenda-reducer";
+import userReducer from "./user/user-reducer";
+import navbarReducer from "./navbar/navbar-reducer";
 
 const persistConfig = {
     key: 'root',
     storage: storage,
-    whitelist: ['cart']
+    whitelist: ['cart', 'user']
 };
 
 const rootReducer = combineReducers({
@@ -21,7 +23,9 @@ const rootReducer = combineReducers({
     categories: categoriesReducer,
     recommended: recommendedReducer,
     prenda: prendaReducer,
-    cart: cartReducer
+    cart: cartReducer,
+    user: userReducer,
+    navbar: navbarReducer
 });
 
 export default persistReducer(persistConfig, rootReducer);

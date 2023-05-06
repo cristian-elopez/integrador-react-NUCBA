@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import LoginInput from '../../components/UI/LoginInput/LoginInput';
-import Submit from '../../components/UI/Submit/Submit';
+import Button from '../../components/UI/Button/Button';
 import {
     LoginContainerStyled,
     Form
@@ -11,11 +10,11 @@ const Login = () => {
   return (
     <LoginContainerStyled>
         <h1>Iniciar Sesión</h1>
-        <Form>
-          {/* <LoginInput placeholder="Usuario" />
-          <LoginInput placeholder="Contraseña" type="password" />
-          <Submit>Iniciar Sesión</Submit> */}
-        </Form>
+          <Form>
+            <LoginInput name='email' type='text' placeholder='Email' />
+            <LoginInput name='password' type='password' placeholder='Password' />
+            <Button>Ingresar</Button>
+          </Form>
     </LoginContainerStyled>
   )
 }

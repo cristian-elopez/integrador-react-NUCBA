@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { AiOutlineMinus,AiOutlinePlus } from 'react-icons/ai';
 
 export const InfoPrenda = styled.div`
     display: flex;
@@ -14,6 +15,35 @@ export const InfoPrenda = styled.div`
 
         p {
             width: 20%;
+
+            @media (max-width: 425px) {
+                width: 100%;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+            }
         }
     }
+    @media (max-width: 768px) {
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+        }
+        div {
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+	}
+`;
+export const AiOutlineMinusStyled = styled(AiOutlineMinus)`
+    margin: 15px auto;
+    cursor: pointer;
+`;
+export const AiOutlinePlusStyled = styled(AiOutlinePlus)`
+    margin: 15px auto;
+    cursor: pointer;
 `;

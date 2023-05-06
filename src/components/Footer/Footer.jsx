@@ -8,7 +8,8 @@ import {
     FooterColumnsContainer,
     TittleColumnFotter,
     ColumnsContein,
-    LinkContainerStyled
+    LinkContainerStyled,
+    InfoCopyrigthStyled
 } from './FooterStyles';
 
 export const Footer = () => {
@@ -64,7 +65,7 @@ export const Footer = () => {
                     </Link>
                 </ColumnsContein>
             </FooterColumnsContainer>
-            <p>© 2023 Génova Indumentaria. Todos los derechos reservados - Diseñada por <strong>Cristian Lopez</strong></p>
+            <InfoCopyrigthStyled>© 2023 Génova Indumentaria. Todos los derechos reservados - Diseñada por <strong>Cristian Lopez</strong></InfoCopyrigthStyled>
         </FooterContainerStyled>
     )
 };
