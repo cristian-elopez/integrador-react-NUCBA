@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useDispatch,useSelector } from 'react-redux';
 import HamburgerMenu from "../../components/HamburgerMenu/HamburgerMenu";
 import { toggleHiddenMenu } from "../../redux/navbar/navbarMenu-reducer";
@@ -18,11 +18,12 @@ import {
 export const Navbar = ()=> {
     const { hiddenMenu } = useSelector(state => state.navbarMenu);
     const dispatch = useDispatch();
+    const { pathname } = useLocation();
     useEffect(() => {
         if(!hiddenMenu) {
           dispatch(toggleHiddenMenu());
         }
-    }, [dispatch]);
+    }, [pathname]);
 
     return (
         <NavbarConteinerStyled>

@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { BiUser, BiShoppingBag } from 'react-icons/bi';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
@@ -6,7 +6,7 @@ export const NavbarConteinerStyled = styled.div`
 	height: 150px;
 	width: 80%;
 	margin: auto;
-	padding: 10px 10px;
+	padding: 10px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -18,7 +18,7 @@ export const NavbarConteinerStyled = styled.div`
 export const LogoStyled = styled.img`
 	width: 150px;
 	padding: 10px 0;
-	margin: auto;
+	margin: 0;
 	display: flex;
 `;
 export const LinksContainerStyled = styled.div`
