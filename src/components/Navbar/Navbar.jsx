@@ -16,7 +16,7 @@ import {
 } from './NavbarStyles';
 
 export const Navbar = ()=> {
-    const  hiddenMenu  = useSelector(state => state.navbarMenu.hiddenMenu);
+    const { hiddenMenu } = useSelector(state => state.navbarMenu);
     const dispatch = useDispatch();
     useEffect(() => {
         if(!hiddenMenu) {

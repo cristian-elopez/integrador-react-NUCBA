@@ -5,7 +5,7 @@ import { InputContainerStyled, LoginInputStyled } from './LoginInputStyles';
 
 const LoginInput = ({ name, type, placeholder }) => {
 
-  useRedirect('/');
+  // useRedirect('/');
   
   return (
       <InputContainerStyled>

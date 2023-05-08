@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { AiOutlineClose } from 'react-icons/ai';
 
 export const HamburgerMenuLinksContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
 `;
 export const LinkHamburgerMenu = styled.div`
 	display: flex;

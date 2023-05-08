@@ -15,14 +15,12 @@ export const NavbarConteinerStyled = styled.div`
 		width: 100%;
 	}
 `;
-
 export const LogoStyled = styled.img`
 	width: 150px;
 	padding: 10px 0;
 	margin: auto;
 	display: flex;
 `;
-
 export const LinksContainerStyled = styled.div`
 	margin: auto;
 	display: flex;
@@ -30,7 +28,6 @@ export const LinksContainerStyled = styled.div`
 	align-items: center;
 	gap: 50px;
 `;
-
 export const LinkContainerStyled = styled.div`
 	color: white;
 
@@ -77,6 +74,7 @@ export const HamburgerMenuContainer = styled.div`
         justify-content: center;
         align-items: center;
 		flex-direction: column;
+		z-index: 1;
     }
 `;
 export const GiHamburgerMenuStyled = styled(GiHamburgerMenu)`
