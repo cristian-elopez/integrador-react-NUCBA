@@ -9,7 +9,7 @@ import recommendedReducer from './recommended/recommended-reducer';
 import cartReducer from './cart/cart-reducer';
 import prendaReducer from "./prenda/prenda-reducer";
 import userReducer from "./user/user-reducer";
-import navbarReducer from "./navbar/navbar-reducer";
+import navbarMenuReducer from "./navbar/navbarMenu-reducer";
 
 const persistConfig = {
     key: 'root',
@@ -25,7 +25,7 @@ const rootReducer = combineReducers({
     prenda: prendaReducer,
     cart: cartReducer,
     user: userReducer,
-    navbar: navbarReducer
+    navbarMenu: navbarMenuReducer 
 });
 
 export default persistReducer(persistConfig, rootReducer);

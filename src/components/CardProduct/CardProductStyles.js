@@ -16,9 +16,9 @@ export const InfoPrenda = styled.div`
         p {
             width: 20%;
 
-            @media (max-width: 425px) {
+            @media (max-width: 768px) {
                 width: 100%;
-                margin: auto;
+                margin: 5px auto;
                 display: flex;
                 justify-content: center;
             }
@@ -32,7 +32,6 @@ export const InfoPrenda = styled.div`
             width: 100%;
         }
         div {
-            flex-direction: column;
             margin: auto;
             justify-content: center;
             align-items: center;
@@ -46,4 +45,10 @@ export const AiOutlineMinusStyled = styled(AiOutlineMinus)`
 export const AiOutlinePlusStyled = styled(AiOutlinePlus)`
     margin: 15px auto;
     cursor: pointer;
+`;
+export const ImageContainer = styled.div`
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;

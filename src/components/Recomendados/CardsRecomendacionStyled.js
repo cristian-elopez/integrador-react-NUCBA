@@ -34,7 +34,7 @@ export const CardsContainer = styled.div`
     gap: 20px;
     margin: 20px;
 
-    @media (max-width: 425px) {
-		flex-direction: column;
+    @media (max-width: 600px) {
+        flex-wrap: wrap;
 	}
 `;

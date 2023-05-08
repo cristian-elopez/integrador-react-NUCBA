@@ -1,14 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import {
     HamburgerMenuLinksContainer,
-    LinkHamburgerMenu
+    LinkHamburgerMenu,
+    AiOutlineCloseStyled
 } from './HamburguerMenuStyles';
+import { useDispatch } from 'react-redux';
+import { toggleHiddenMenu } from '../../redux/navbar/navbarMenu-reducer';
 
-const HamburgerMenu = (hiddenMenu) => {
+const HamburgerMenu = () => {
+    const dispatch = useDispatch();
   return (
-    <HamburgerMenuLinksContainer
-        hidden={hiddenMenu}>
+    <HamburgerMenuLinksContainer>
+        <AiOutlineCloseStyled onClick={()=>dispatch(toggleHiddenMenu())}/>
         <Link to='/'>
             <LinkHamburgerMenu> Inicio </LinkHamburgerMenu>
         </Link>

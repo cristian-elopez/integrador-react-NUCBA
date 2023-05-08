@@ -5,17 +5,18 @@ import * as cartActions from '../../redux/cart/cart-actions';
 import { 
     InfoPrenda,
     AiOutlineMinusStyled,
-    AiOutlinePlusStyled 
+    AiOutlinePlusStyled,
+    ImageContainer
 } from './CardProductStyles';
 
 const CardProduct = ({ img, tittle, desc, price, quantity, id }) => {
     const dispatch = useDispatch()
     return (
         <InfoPrenda>
-            <div>
-            <img src={img} alt={tittle} />
-            <p>{tittle}</p>
-            </div>
+            <ImageContainer>
+                <img src={img} alt={tittle} />
+                <p>{tittle}</p>
+            </ImageContainer>
             <p>{formatPrice(price)}</p>
             <div>
                 <AiOutlineMinusStyled 

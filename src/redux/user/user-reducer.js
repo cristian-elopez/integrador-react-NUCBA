@@ -1,4 +1,4 @@
-import { SET_CURRENT_USER,TOGGLE_MENU_HIDDEN } from './user-actions';
+import { SET_CURRENT_USER } from './user-actions';
 
 const INITIAL_STATE = {
     currentUser: null,
@@ -8,8 +8,6 @@ const INITIAL_STATE = {
 const userReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case SET_CURRENT_USER:
-            return { ...state, currentUser: action.payload }
-        case TOGGLE_MENU_HIDDEN:
             return { ...state, currentUser: action.payload }
         default:
             return state;

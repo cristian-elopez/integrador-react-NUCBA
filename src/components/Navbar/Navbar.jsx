@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch,useSelector } from 'react-redux';
 import HamburgerMenu from "../../components/HamburgerMenu/HamburgerMenu";
-import { toggleMenu } from '../../redux/navbar/navbar-actions';
+import { toggleHiddenMenu } from "../../redux/navbar/navbarMenu-reducer";
 import {
 	NavbarConteinerStyled,
     LogoStyled,
@@ -16,11 +16,24 @@ import {
 } from './NavbarStyles';
 
 export const Navbar = ()=> {
-    const dispatch = useDispatch()
-    const hiddenMenu = useSelector(state => state.navbar.hidden);
+    const  hiddenMenu  = useSelector(state => state.navbarMenu.hiddenMenu);
+    const dispatch = useDispatch();
+    useEffect(() => {
+        if(!hiddenMenu) {
+          dispatch(toggleHiddenMenu());
+        }
+    }, [dispatch]);
 
     return (
         <NavbarConteinerStyled>
+            { !hiddenMenu && (
+                <HamburgerMenuContainer>
+                    <HamburgerMenu />
+                </HamburgerMenuContainer>
+            )}
+            { hiddenMenu && (<GiHamburgerMenuStyled 
+                onClick={()=>dispatch(toggleHiddenMenu())}/>
+            )}
             <LinksContainerStyled>
                 <Link to='/'>
                     <LinkContainerStyled> Inicio </LinkContainerStyled>
@@ -51,13 +64,6 @@ export const Navbar = ()=> {
                         </LinkContainerStyled>
                     </Link>
                 </IconsContainerStyled>
-            <HamburgerMenuContainer>
-                <GiHamburgerMenuStyled 
-                    onClick={()=> dispatch(toggleMenu(<HamburgerMenu hiddenMenu/>))}
-                    isHidden={hiddenMenu}
-                />
-                <HamburgerMenu />
-            </HamburgerMenuContainer>
         </NavbarConteinerStyled>
     );
 };

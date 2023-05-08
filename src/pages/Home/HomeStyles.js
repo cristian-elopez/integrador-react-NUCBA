@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HomeWrapper = styled.div`
     width: 100%;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1700px;
 `;
 export const RecomendadosWrapper = styled.section`
     width: 90%;
