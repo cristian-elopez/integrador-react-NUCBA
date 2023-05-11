@@ -5,8 +5,6 @@ import { useNavigate } from "react-router-dom";
 const useRedirect = redirectTo => {
   const { currentUser } = useSelector(state => state.user);
 
-  console.log('currentUser ==> ', currentUser);
-
   const navigate = useNavigate()
 
   useEffect(() => {

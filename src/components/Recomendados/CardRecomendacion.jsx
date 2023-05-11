@@ -22,10 +22,13 @@ export const CardRecomendacion = ({ id, tittle, img, desc, price, category }) =>
         <p> {desc} </p>
         <p> {formatPrice(price)} </p>
       </CardText>
-      <Button onClick={
-        () => dispatch(
-          cartActions.addToCart({ id, tittle, img, desc, price, category })
-        )}>Agregar al carrito</Button>
+      <Button 
+        onClick={
+        () => {
+          dispatch(
+          cartActions.addToCart({ id, tittle, img, desc, price, category }))
+          alert(`Agregaste ${tittle} al carrito.`)
+        }}>Agregar al carrito</Button>
     </Card> 
   )
 };

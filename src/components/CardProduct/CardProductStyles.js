@@ -5,6 +5,7 @@ export const InfoPrenda = styled.div`
     display: flex;
     justify-content: space-between;
     border: 1px solid white;
+    font-weight: 600;
 
     img {
         width: 100px;
@@ -41,10 +42,12 @@ export const InfoPrenda = styled.div`
 export const AiOutlineMinusStyled = styled(AiOutlineMinus)`
     margin: 15px auto;
     cursor: pointer;
+    min-width: 20px;
 `;
 export const AiOutlinePlusStyled = styled(AiOutlinePlus)`
     margin: 15px auto;
     cursor: pointer;
+    min-width: 20px;
 `;
 export const ImageContainer = styled.div`
     @media (max-width: 768px) {

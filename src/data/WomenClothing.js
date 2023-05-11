@@ -3,7 +3,7 @@ export const RopaMujer = [
         id: 16,
         tittle: 'Buzo Mujer 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Buzos en Génova!',
         price: 1000,
         category: 'Buzos'
     },
@@ -11,7 +11,7 @@ export const RopaMujer = [
         id: 17,
         tittle: 'Buzo Mujer 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Buzos en Génova!',
         price: 1000,
         category: 'Buzos'
     },
@@ -19,7 +19,7 @@ export const RopaMujer = [
         id: 18,
         tittle: 'Buzo Mujer 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Buzos en Génova!',
         price: 1000,
         category: 'Buzos'
     },
@@ -27,7 +27,7 @@ export const RopaMujer = [
         id: 19,
         tittle: 'Campera Mujer 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Las mejores Camperas en Génova!',
         price: 1000,
         category: 'Camperas'
     },
@@ -35,7 +35,7 @@ export const RopaMujer = [
         id: 20,
         tittle: 'Campera Mujer 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Las mejores Camperas en Génova!',
         price: 1000,
         category: 'Camperas'
     },
@@ -43,7 +43,7 @@ export const RopaMujer = [
         id: 21,
         tittle: 'Campera Mujer 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Las mejores Camperas en Génova!',
         price: 1000,
         category: 'Camperas'
     },
@@ -51,7 +51,7 @@ export const RopaMujer = [
         id: 22,
         tittle: 'Remera Mujer 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Las mejores Remeras en Génova!',
         price: 1000,
         category: 'Remeras'
     },
@@ -59,7 +59,7 @@ export const RopaMujer = [
         id: 23,
         tittle: 'Remera Mujer 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Las mejores Remeras en Génova!',
         price: 1000,
         category: 'Remeras'
     },
@@ -67,7 +67,7 @@ export const RopaMujer = [
         id: 24,
         tittle: 'Remera Mujer 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Las mejores Remeras en Génova!',
         price: 1000,
         category: 'Remeras'
     },
@@ -75,7 +75,7 @@ export const RopaMujer = [
         id: 25,
         tittle: 'Pantalon Mujer 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Pantalones en Génova!',
         price: 1000,
         category: 'Pantalones'
     },
@@ -83,7 +83,7 @@ export const RopaMujer = [
         id: 26,
         tittle: 'Pantalon Mujer 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Pantalones en Génova!',
         price: 1000,
         category: 'Pantalones'
     },
@@ -91,7 +91,7 @@ export const RopaMujer = [
         id: 27,
         tittle: 'Pantalon Mujer 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Pantalones en Génova!',
         price: 1000,
         category: 'Pantalones'
     },
@@ -99,7 +99,7 @@ export const RopaMujer = [
         id: 28,
         tittle: 'Accesorio Mujer 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Accesorios en Génova!',
         price: 1000,
         category: 'Accesorios'
     },
@@ -107,7 +107,7 @@ export const RopaMujer = [
         id: 29,
         tittle: 'Accesorio Mujer 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Accesorios en Génova!',
         price: 1000,
         category: 'Accesorios'
     },
@@ -115,7 +115,7 @@ export const RopaMujer = [
         id: 30,
         tittle: 'Accesorio Mujer 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563402/PROYECTOS/GENOVA/MODELS/retrato-modelo-mujer_up3tzf.jpg',
-        desc: '',
+        desc: 'Los mejores Accesorios en Génova!',
         price: 1000,
         category: 'Accesorios'
     },

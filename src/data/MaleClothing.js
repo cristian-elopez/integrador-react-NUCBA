@@ -3,7 +3,7 @@ export const RopaHombre = [
         id: 1,
         tittle: 'Buzo Hombre 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Buzos en Génova!',
         price: 1000,
         category: 'Buzos'
     },
@@ -11,7 +11,7 @@ export const RopaHombre = [
         id: 2,
         tittle: 'Buzo Hombre 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Buzos en Génova!',
         price: 1000,
         category: 'Buzos'
     },
@@ -19,7 +19,7 @@ export const RopaHombre = [
         id: 3,
         tittle: 'Buzo Hombre 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Buzos en Génova!',
         price: 1000,
         category: 'Buzos'
     },
@@ -27,7 +27,7 @@ export const RopaHombre = [
         id: 4,
         tittle: 'Campera Hombre 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Las mejores Camperas en Génova!',
         price: 1000,
         category: 'Camperas'
     },
@@ -35,7 +35,7 @@ export const RopaHombre = [
         id: 5,
         tittle: 'Campera Hombre 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Las mejores Camperas en Génova!',
         price: 1000,
         category: 'Camperas'
     },
@@ -43,7 +43,7 @@ export const RopaHombre = [
         id: 6,
         tittle: 'Campera Hombre 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Las mejores Camperas en Génova!',
         price: 1000,
         category: 'Camperas'
     },
@@ -51,7 +51,7 @@ export const RopaHombre = [
         id: 7,
         tittle: 'Remera Hombre 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Las mejores Remeras en Génova!',
         price: 1000,
         category: 'Remeras'
     },
@@ -59,7 +59,7 @@ export const RopaHombre = [
         id: 8,
         tittle: 'Remera Hombre 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Las mejores Remeras en Génova!',
         price: 1000,
         category: 'Remeras'
     },
@@ -67,7 +67,7 @@ export const RopaHombre = [
         id: 9,
         tittle: 'Remera Hombre 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Las mejores Remeras en Génova!',
         price: 1000,
         category: 'Remeras'
     },
@@ -75,7 +75,7 @@ export const RopaHombre = [
         id: 10,
         tittle: 'Pantalon Hombre 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Pantalones en Génova!',
         price: 1000,
         category: 'Pantalones'
     },
@@ -83,7 +83,7 @@ export const RopaHombre = [
         id: 11,
         tittle: 'Pantalon Hombre 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Pantalones en Génova!',
         price: 1000,
         category: 'Pantalones'
     },
@@ -91,7 +91,7 @@ export const RopaHombre = [
         id: 12,
         tittle: 'Pantalon Hombre 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Pantalones en Génova!',
         price: 1000,
         category: 'Pantalones'
     },
@@ -99,7 +99,7 @@ export const RopaHombre = [
         id: 13,
         tittle: 'Accesorio Hombre 1',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Accesorios en Génova!',
         price: 1000,
         category: 'Accesorios'
     },
@@ -107,7 +107,7 @@ export const RopaHombre = [
         id: 14,
         tittle: 'Accesorio Hombre 2',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Accesorios en Génova!',
         price: 1000,
         category: 'Accesorios'
     },
@@ -115,7 +115,7 @@ export const RopaHombre = [
         id: 15,
         tittle: 'Accesorio Hombre 3',
         img: 'https://res.cloudinary.com/dja0b7qbo/image/upload/v1682563414/PROYECTOS/GENOVA/MODELS/retrato-modelo-hombre_thirr9.jpg',
-        desc: '',
+        desc: 'Los mejores Accesorios en Génova!',
         price: 1000,
         category: 'Accesorios'
     },

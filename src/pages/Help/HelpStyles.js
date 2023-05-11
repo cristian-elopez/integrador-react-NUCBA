@@ -26,6 +26,7 @@ export const PreguntasContainer = styled.div`
     border: 1px solid white;
     margin: auto;
     padding: 10px;
+    width: 100%;
 
     p {
         margin: 0;

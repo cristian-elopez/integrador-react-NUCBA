@@ -48,17 +48,17 @@ export const Footer = () => {
                 </ColumnsContein>
                 <ColumnsContein>
                     <TittleColumnFotter>PREGUNTAS FRECUENTES</TittleColumnFotter>
-                    <Link to='/'>
+                    <Link to='/help'>
                         <LinkContainerStyled>
                             ¿Como realizar un pedido?
                         </LinkContainerStyled>
                     </Link>
-                    <Link to='/'>
+                    <Link to='/help'>
                         <LinkContainerStyled>
                             Envio
                         </LinkContainerStyled>
                     </Link>
-                    <Link to='/'>
+                    <Link to='/help'>
                         <LinkContainerStyled>
                             Cambios
                         </LinkContainerStyled>
